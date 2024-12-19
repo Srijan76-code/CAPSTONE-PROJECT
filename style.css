@@ -42,7 +42,8 @@ a {
     display: flex;
     gap: 2vw;
 }
-a{
+
+a {
     font-weight: 370;
 }
 
@@ -128,10 +129,11 @@ a:hover {
     font-weight: 370;
     color: rgba(0, 0, 0, 1);
 }
+
 .c2 {
-    
+
     font-weight: 320;
-  
+
 }
 
 .services {
@@ -449,141 +451,255 @@ a:hover {
 
 
 @media (max-width: 768px) {
-    .nav_hover , .nav3{
+
+    .nav_hover,
+    .nav3 {
         font-size: 16px;
-        
+
     }
-    .nav{
+
+    .nav {
         padding: 0.8vw 3vw;
 
     }
-    .nav2{
+
+    .nav2 {
         font-size: 23px;
     }
 
     .c1 {
         font-size: 12px;
     }
+
     .c2 {
         font-size: 10px;
     }
-    .offer{
+
+    .offer {
         font-size: 23px;
     }
-    .c{
+
+    .c {
         font-size: 12px;
     }
-    .about_text{
+
+    .about_text {
         font-size: 23px;
     }
-  
-    .t1  {
-        font-size:14px;
+
+    .t1 {
+        font-size: 14px;
     }
+
     .button {
         width: 100px;
         border-radius: 6px;
         font-size: 11px;
     }
-    .t2{
+
+    .t2 {
         font-size: 10px;
     }
+
     .projects {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
     }
-    .touch1{
+
+    .touch1 {
         font-size: 23px;
     }
-    .touch2{
+
+    .touch2 {
         font-size: 12px;
     }
-    .c_text{
-        
+
+    .c_text {
+
         font-size: 12px;
     }
-    .c_para{
-  
+
+    .c_para {
+
         font-size: 10px;
     }
-    .contact3, .contact4{
+
+    .contact3,
+    .contact4 {
         font-size: 10px;
     }
 }
 
 @media (max-width: 576px) {
-  
+
     .projects {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
     }
+    .nav{
+        width: 88%;
+        height: 25px;
 
-    .nav_hover , .nav3{
+
+    }
+    .nav_hover,
+    .nav3 {
         font-size: 12px;
         
+
     }
-    .nav{
+
+    .nav {
         padding: 0.8vw 3vw;
 
     }
-    .nav2{
+
+    .nav2 {
         font-size: 18px;
+    }
+    .text{
+        text-align: center;
     }
 
     .c1 {
         font-size: 12px;
     }
+
     .c2 {
         font-size: 11px;
     }
-    .offer{
-        font-size: 19px;
-    }
-    .c{
-        font-size: 8px;
-    }
-    .about_text{
+
+    .offer {
+        align-self: center;
+       
         font-size: 16px;
     }
-    .t1  {
-        font-size:12px;
+
+    .container {
+        width: 60%;
     }
+
+    .c {
+        font-size: 9px;
+    }
+
+    .about {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about_text {
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .t_content {
+        width:300px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 16px;
+    }
+
+    .t1 {
+        justify-self: center;
+        font-size: 12px;
+    }
+
     .button {
+        text-align: center;
         width: 100px;
         border-radius: 6px;
         font-size: 9px;
     }
-    .t2{
+
+    .t2 {
         font-size: 8px;
     }
-    .touch1{
-        font-size: 19px;
+
+    .touch1 {
+        align-self: center;
+        font-size: 16px;
     }
-    .touch2{
-        font-size: 9px;
+
+    .touch2 {
+        width: 180px;
+        height: 50px;
+        font-size: 10px;
+        line-height: 12px;
     }
-    .c_text{
-        
-        font-size: 9px;
+
+    .contact {
+        width: 100%;
     }
-    .c_para{
-  
+
+    .contact_main {
+        width: 100%;
+    }
+
+    .contact1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .getintouch{
+        justify-content: space-around;
+    }
+    .c_text {
+        margin: 0;
+        width: 90px;
+        height: 40px;
+        margin-top: 11px;
+        font-size: 16px;
+
+
+    }
+
+    .c_para {
+        width: 180px;
+        height: 40px;
+        font-size: 10px;
+        line-height: 12px;
+
+    }
+
+
+    .contact2 {
+        margin:7px auto;
+        margin-top: 18px;
+
+    }
+
+    .contact3,
+    .contact4 {
         font-size: 7px;
+        margin:7px auto;
+
     }
-    .contact3, .contact4{
-        font-size: 7px;
-    }
-    .f1{
+
+    .f1 {
         width: 62px;
-        font-size:12px;
+        font-size: 12px;
         padding-top: 1.4vw;
     }
-    .f2{
+
+    .f2 {
         width: 62px;
-        padding-bottom:15px  ;
+        padding-bottom: 15px;
         font-size: 9px;
-        
+
     }
 
 }
-
