@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Mono", monospace;
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 a {
@@ -29,8 +29,8 @@ a {
     justify-content: space-between;
     height: 4.68vw;
     width: 73.2vw;
-    padding: 2vw 3vw;
-    border-radius: 16px;
+    padding: 1.5vw 3vw;
+    border-radius: 1vw;
     background: rgba(51, 51, 51, 0.13);
     backdrop-filter: blur(96px);
     box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.16);
@@ -42,9 +42,8 @@ a {
     display: flex;
     gap: 2vw;
 }
-
-a {
-    transition: color 0.15s ease-in, font-weight 0.15s ease-in;
+a{
+    font-weight: 370;
 }
 
 a:hover {
@@ -86,10 +85,10 @@ a:hover {
     line-height: 7.8vw;
 }
 
-.landing_page_img img{
+.landing_page_img img {
     height: 44vw;
     width: 100%;
-    margin:0 auto;
+    margin: 1.6vw auto;
 }
 
 .projects {
@@ -101,11 +100,12 @@ a:hover {
     align-items: center;
     gap: 3.12vw;
     padding: 3.12vw 0;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 6.24vw;
-    
+
 }
-.p img{
+
+.p img {
     width: 100%;
     height: auto;
 }
@@ -125,8 +125,13 @@ a:hover {
 
 .c1 {
     font-size: 1.3vw;
-    font-weight: 100;
+    font-weight: 370;
     color: rgba(0, 0, 0, 1);
+}
+.c2 {
+    
+    font-weight: 320;
+  
 }
 
 .services {
@@ -153,26 +158,21 @@ a:hover {
     display: grid;
     width: 42.12vw;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: auto;
     gap: 1.04vw;
     font-family: Roboto Mono;
     font-size: 1.3vw;
-    font-weight: 400;
+    font-weight: 350;
     line-height: 1.56vw;
     text-align: left;
 }
 
-.c {
-
-    transform: scale(1);
-    transition: all 0.12s ease-in;
-}
 
 .c:hover {
     color: #00308F;
     font-weight: bolder;
-    transform: scale(1.01);
 }
+
 
 .about {
 
@@ -291,7 +291,7 @@ a:hover {
 
     font-family: Roboto Mono;
     font-size: 1.56vw;
-    font-weight: 400;
+    font-weight: 350;
     line-height: 2.08vw;
     letter-spacing: -0.005em;
 
@@ -300,7 +300,7 @@ a:hover {
 
 .d {
     width: 100%;
-    height:0.0625vw;
+    height: 0.0625vw;
     background-color: rgb(16, 16, 16);
 
 }
@@ -338,6 +338,7 @@ a:hover {
     letter-spacing: -0.01em;
     text-align: center;
 }
+
 .c_para {
     width: 26vw;
     height: 2.6vw;
@@ -357,6 +358,7 @@ a:hover {
     grid-template-columns: repeat(5, 1fr);
     margin: 2.14vw;
 }
+
 .input {
     width: 3.64vw;
     height: 4.16vw;
@@ -403,6 +405,7 @@ a:hover {
     cursor: pointer;
 
 }
+
 .footer {
     width: 88vw;
     height: 10.92vw;
@@ -423,8 +426,11 @@ a:hover {
 
 
 }
+
 .f2 {
     width: 10.2vw;
+    height: auto;
+    overflow: hidden;
     font-family: Roboto Mono;
     font-size: 1.3vw;
     font-weight: 400;
@@ -433,16 +439,33 @@ a:hover {
     padding: 0.78vw;
     border-radius: 0.52vw;
     text-align: center;
-    border: 0.065vw solid rgba(0, 0, 0, 1);
+    border: 0.08vw solid rgba(0, 0, 0, 1);
     cursor: pointer;
 
 
 }
 
-f2 {
-    transition: border 0.15s ease-in;
+
+
+@media (max-width: 768px) {
+    a{
+        font-size: 14px;
+
+    }
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
 }
 
-.f2:hover {
-    border: 0.13vw solid #5D3FD3;
+@media (max-width: 576px) {
+    a{
+        font-size: 12px;
+    }
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
 }
+
