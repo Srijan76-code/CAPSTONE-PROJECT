@@ -121,7 +121,12 @@ a:hover {
 .p:hover {
     transform: scale(1.01);
     box-shadow: 10px 14px 24px 10px rgba(0, 0, 0, 0.16);
+    border-radius:12px;
+    text-align: center;
 
+}
+.p img:hover{
+    border-radius: 12px;
 }
 
 .c1 {
@@ -545,7 +550,7 @@ a:hover {
     .nav_hover,
     .nav3 {
         font-size: 12px;
-        
+
 
     }
 
