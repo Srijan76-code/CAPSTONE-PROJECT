@@ -191,11 +191,19 @@
                     <div class="input">0</div>
                 </div>
 
-                <div class="contact3">
+                <button type="button" class="contact3" onclick="openPopup()">
                     Submit
-                </div>
+                </button>
 
                 <div class="contact4">Skip</div>
+
+                <div class="popup" id="popup">
+                    <img src="404-tick.png">
+                    <h2>Thank You!</h2>
+                    <p>Your details has been successfully submitted. Thanks!</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                </div>
+
 
             </div>
         </section>
@@ -213,6 +221,16 @@
 
 
     </footer>
+
+    <script>
+        let popup=document.getElementById("popup")
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
 
 
 </body>
